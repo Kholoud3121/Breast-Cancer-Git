@@ -11,7 +11,7 @@ def account() :
 account()
 
 def gene() :
-    print("please choose write your gen of interest that you found in breast cancer patient for example: BRCA1 BRCA2 CDH1 EGFR BARD1 RAD51D MSH6 CHEK2 ATM PALB2 MSH6")
+    print("please choose write your gen of interest that you found in breast cancer patient for example: BRCA1 BRCA2 CDH1 EGFR BRAD1 RAD51D MSH6 CHEK2 ATM PALB2 MSH6")
     Gene = input("enter the gene name:")
     Variation = input("Enter the the gene variation using the transcript code 'NM'")
 
