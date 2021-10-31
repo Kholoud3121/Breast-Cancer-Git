@@ -1,25 +1,24 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Saudi Human Genome</title>
-  </head>
-  <h1>Saudi Human Genome</h1>
-  <body>
-     <div class="placeholder">
-       I'm in a div
-        <div class="another class">
-          Another class tab
-        <div class="placeholder">
-          I'm working here
+print("HotSPot")
+print("HotSpot is a website that has been created to help researchers and physicians to know if the  genetic variations"
+      "are reported to be asscoited with cancer")
+def account() :
+    print(" Create an account")
+    name = input("Enter your name:")
+    email = input("Enter your e-mail:")
+    print("Hello " + name + " a conformation e-mail will be sent to your e-mail " + email)
 
 
-        </div>
+account()
+
+def gene() :
+    print("please choose from the gene list: EGFR  KRAS  BRAF TP53 PDGFR MSH2")
+    Gene = input("enter the gene name:")
+    Variation = input("Enter the the gene variation using the transcript code 'NM'")
 
 
-       </div>
+gene()
 
-
-
-  </body>
-</html>
+Gene= True
+Variation= True
+if Gene and Variation:
+    print("Searching for" + Gene "and"+ Variation)
