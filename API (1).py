@@ -1,3 +1,5 @@
+
+
 import requests
 
 print("HotSPot")
@@ -29,3 +31,19 @@ account()
 Variation = variation()
 print("Searching for" + Variation)
 search(Variation)
+
+def Gene():
+    return input("Enter the the gene NCBI Gene ID:")
+
+
+def search(Gene):
+    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gene&id="
+    response = requests.get(url+Gene)
+    js = response.json()
+
+    print("The gene information is a "+js['Summary'][0]['OtherAliases'])
+
+
+Gene = Gene()
+print("Searching for" + Gene)
+search(Gene)
