@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HotSpot</title>
 </head>
-<h1>HotSpot</h1>
+
 <Style>
     * {
         margin: 0;
         padding: 0;
     }
     body {
-        background-color:yellow;
+        background-color:rgb(104, 104, 61);
         color: white;
+        
+       
+
+        
+        </section>
 
     }
     .container {
@@ -41,7 +46,7 @@
 
     }
     .nav-bar ul li:hover {
-        background-color: blue;
+        background-color: rgb(127, 127, 187);
 
     }
     a {
@@ -49,7 +54,9 @@
     }
     .logo {
         float: left;
-        width: 80px;
+        width: 5px;
+        padding-right: 10px;
+        size: 20px;
 
     }
     .hero-img {
@@ -61,12 +68,27 @@
         margin: 10px;
         border-radius: 15px;
     }
+    .Content {
+        float:right;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-break: normal;
+        text-align: center;
+        font-style: italic;
+        font-family: cursive;
+        
+
+    }
+    .form{
+        margin-top: 60px;
+    }
 
 
 </Style>
 
 <body>
   <div class="container">
+      
       <div class="nav">
           <div.class="logo">
               <img src="logo.svg" alt="">
@@ -84,15 +106,52 @@
 
               </ul>
 
-          </div>
-          <div>class=<hero-img>
-              img src= "hero-img.jpg"
+        
+          <div class="Content">
 
+              <h1> HotSpots</h1>
+              
+              <p>
+                  
+                HotSpots is designed to help researchers and physicians to find variations in genes that associated with different types of cancer.
+             genetic sequencing for the DNA extracted from the cancer tissues may results on several variations in different genes. Some of these variations are artifact or benign but some of the variants are pathogenic which induce the tumor progression.
+               The right annotation and interpretation for the  pathogenic variants will help the physicians to decide about the best treatment for the patients.
+               Here in HotSpots, we will help you to get the right annotations and interpretations for your interested variants from the reliable variants database. 
+               
+               </p>
+               <section id="show case">
+                   <div class="form">
+                       <h2>Creat an account</h2>
+                       <form>
+                          <input type="Name" placeholder="Enter your user name" id="Email"></form>
+                          <form>
+                            <input type="text" placeholder="Enter your e-mail" id="Name">
+
+                          </form>
+                          
+                          
+
+                       </form>
+
+
+                     
+
+
+                   </div>
+
+
+
+               </section>
           </div>
+         
 
       </div>
 
 
-  </div>  
+  </div> 
+ 
+
+
+  </div> 
 </body>
 </html>
